@@ -1,3 +1,4 @@
-#name : #include <...>
+# -*- mode: snippet -*-
+# name: #include <...>
 # --
 #include <$0>
