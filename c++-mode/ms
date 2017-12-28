@@ -3,6 +3,6 @@
 # key: ms
 # --
 `(+amos/add-include "chrono")`{
-    Measure<${$$(yas/choose-value '("std::chrono::seconds" "std::chrono::miliseconds" "std::chrono::microseconds" "std::chrono::nanoseconds"))}> _measure_;
+    Measure<${$$(yas/choose-value '("std::chrono::seconds" "std::chrono::milliseconds" "std::chrono::microseconds" "std::chrono::nanoseconds"))}> _measure_;
     $0
 }
